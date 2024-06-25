@@ -7,7 +7,7 @@ import logo from "./logo.png"
 const Navbar = () => {
   return (
     <div>
-      <div className='flex justify-between bg-black'>
+      <div className='flex justify-between bg-blue-500'>
         <NavLink to="/">
           <div>
           <img src={logo} className='h-[45px] w-[150px] p-1'/>
